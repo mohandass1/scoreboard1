@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   
+    <div id="con">
+         <h1>MY TEAM</h1>
+        <div class="h"><h1 id="score-el">0</h1></div>
+         <div id="bts1">
+            <button class="btn" onclick="addone()">+1</button>
+            <button class="btn" onclick="addtwo()">+4</button>
+            <button class="btn" onclick="addfive()">+6</button>
+            <P id="his1">History:</P> 
+        </div>
+         <button class="newbtn" onclick="newgame()">New game</button>
+    </div>
+     <div id="con2">
+         <h1>OPPONENT</h1>
+        <div class="h2"><h1 id="score">0</h1></div>
+         <div id="bts2">
+            <button class="btn2" onclick="addone2()">+1</button>
+            <button class="btn2" onclick="addtwo2()">+4</button>
+            <button class="btn2" onclick="addfive2()">+6</button>
+            <P id="his2">History:</P> 
+        </div>
+         <button class="newbtn" onclick="newgame2()">New game</button>
+    </div>
+   
+    
+    <script src="./index.js"></script>
+</body>
+</html>
